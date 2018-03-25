@@ -1,0 +1,41 @@
+fecha_dato : 날짜 데이터(제대로 이해한게 맞다면 15-01-28 부터 16-05-28까지
+ncodpers : 고객 번호(고유값?)
+ind_empleado : 직원 상태
+A : 재직중 B : 퇴사 F : fillial(자식의?) N : 직원이 아님 P : pasive?
+
+pais_residencia : 고객 거주지
+sexo : 고객 성별
+age : 고객 나이
+fecha_alta : 고객이 은행에 first holder가 된 날
+ind_nuevo : 새 고객인가 아닌가, 6개월 이내 등록했으면 새 고객
+antiguedad : 고객 서열(월단위)
+indrel :
+1은 primary customer(구매의사가 충분한 고객?) 99는 primary customer이다가 월말에는 primary customer가 아니게 됨
+
+ult_fec_cli_1t : primary customer 로써 마지막 date
+indrel_1mes : 월초의 고객 타입
+1 : Primary customer 2 : 공동 소유자 P : 잠재 고객 3 : 이전 Primary 4 : 이전 공동 소유자
+
+tiprel_1mes :월초의 고객 관계 A : active I : inactive P : former customer R : Potential
+indresi :
+S(Yes) or N(NO): 고객 거주지와 은행 위치가 같은 나라인가
+
+indext :
+S(Yes) or N(NO) : 외국인의 출생국가와 은행 위치가 다른가?
+
+conyuemp : 직원의 배우자 인가 아닌가
+1일 경우 직원의 배우자
+
+canal_entrada : 고객이 조인하기 위해 사용되어진 채널?
+indfall : 죽은 고객?
+tipodom : 주소 타입
+cod_prov : 고객 주소(Province code)
+nomprov : province name
+ind_actividad_clie
+1 : active customer 0 : inactive customer
+
+renta : gross income of the household(가정의 총 수입)
+segmento :
+1 - VIP 2 - individuals 3 - college graduated
+
+ind_ahor_fin_ult1 : Saving Account
