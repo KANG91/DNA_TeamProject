@@ -1,4 +1,6 @@
 ﻿# Santander Product Recommendation
+ (plase, click here to check my notebook file!  [here](https://github.com/KANG91/DNA_TeamProject/blob/master/kang/Final_version.ipynb))
+ 
 
 ### Synopsis
 There are 13,647,309 bank records from Jan, 01, 15 to May, 30, 16 that occured in Santander bank in Spain. Independent variables are all kinds of customer's personal information like sex, age, seniority and so on.  What we had to do was that recommend the fittest product to customers based on past visit information. 
