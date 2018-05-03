@@ -6,7 +6,9 @@
 There are 13,647,309 bank records from Jan, 01, 15 to May, 30, 16 that occured in Santander bank in Spain. Independent variables are all kinds of customer's personal information like sex, age, seniority and so on.  What we had to do was that recommend the fittest product to customers based on past visit information. 
 
 ### Evaluation method
-$$ MAP@7\quad =\quad \frac { 1 }{ \left| U \right|  }\sum _{ u=1 }^{ \left| U \right|  }{ \frac { 1 }{ min(m,7) } }\sum_ { k=1 }^{ min(n,7) }{ P(k) }  $$
+![Evaluation_method](Evaluation_method.png)  
+
+
 where |U| is the number of rows (users in two time points), P(k) is the precision at cutoff k, n is the number of predicted products, and m is the number of added products for the given user at that time point. If m = 0, the precision is defined to be 0.
 
 ### Things that we consiered
